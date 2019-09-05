@@ -26,13 +26,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto text-white">
           <li class="nav-item">
-            <a class="nav-link" href="#about">Sobre mi</a>
+            <a class="nav-link" href="#acercademi">Sobre mi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#work">Experiencia</a>
+            <a class="nav-link" href="#exper">Experiencia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Trabajos</a>
+            <a class="nav-link" href="#jobs">Trabajos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contacto</a>
@@ -53,7 +53,7 @@
       </div>
     </div>
   </header>
-  <section class="d-none d-md-block">
+  <section id="acercademi" class="d-none d-md-block">
     <div class="container">
       <h2 class="py-5 interlineado">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante <br>
         nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</h2>
@@ -69,7 +69,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="exper">
     <div class="container">
       <h1 class="text-center py-4 pb-5 font-weight-bold">MI EXPERIENCIA
         <hr class="lineacorta">
@@ -78,11 +78,15 @@
       <div class="row">
         <div class="col-6 text-center">
           <img src="img/cenco.jpg" class="img-fluid " alt="">
-          <h2>2018-Actualidad</h2>
+          <button type="button" class="btn btn-secondary fondosec" data-toggle="tooltip" data-placement="bottom" title="2018 - Actualidad">
+            CENCOSUD
+          </button>
         </div>
-        <div class="col-6 pb-5 text-center">
+        <div class="col-6 pb-5 py-3 text-center">
           <img src="img/movistar123.jpg" class="img-fluid imagen01" alt="">
-          <h2>2013-2018</h2>
+          <button type="button" class="btn btn-secondary fondosec" data-toggle="tooltip" data-placement="bottom" title="2014 - 2018">
+            MOVISTAR
+          </button>
         </div>
       </div>
     </div>
@@ -90,7 +94,7 @@
   </section>
   <br>
   <br>
-  <section class="fondosec">
+  <section id="jobs" class="fondosec">
     <div class="container">
       <h1 class="text-center font-weight-bold text-white display-3 pt-5 pb-5">MIS ÚLTIMOS TRABAJOS</h1>
       <div class="card-deck pb-5">
@@ -170,33 +174,36 @@
   <footer class="container-fluid text-white">
     <div class="container">
 
-        <div class="">
-          <h2 class="font-weight-bold pt-4">MAGDALENA</h2>
-        </div>
-
-          <i class="fab fa-github-square fa-5x"></i>
-
-
-          <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-5x"></i></a>
-
-
-          <i class="fab fa-twitter-square fa-5x"></i>
-
-
-          <i class="fab fa-facebook-square fa-5x"></i>
-
-
+      <div class="">
+        <h2 class="font-weight-bold pt-4">MAGDALENA</h2>
       </div>
+
+      <i class="fab fa-github-square fa-5x"></i>
+
+
+      <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-5x"></i></a>
+
+
+      <i class="fab fa-twitter-square fa-5x"></i>
+
+
+      <i class="fab fa-facebook-square fa-5x"></i>
+
+
+    </div>
     </div>
   </footer>
 
 
-  <!-- my script -->
-  <script src="js/script.js"></script>
+
   <!-- bootstrap -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- my script -->
+  <script src="js/script.js"></script>
+
 </body>
 
 </html>
