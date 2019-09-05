@@ -42,10 +42,7 @@ header {
 
 }
 
-footer{
-  background: #660066;
-  height: 150px;
-}
+
 .imagen01{
   width: 14rem;
 }
@@ -54,4 +51,12 @@ footer{
   border: 0;
   background-color: black;
   width: 100px;
+}
+footer{
+  background: #660066;
+}
+
+.letra{
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
 }
